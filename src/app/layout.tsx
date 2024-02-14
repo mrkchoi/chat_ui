@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
-  title: "Chats | Kenny Choi",
+  title: "Chat UI | Kenny Choi",
   description: "Chat for Enterprise and Personal Use",
 };
 
-export const fontSans = FontSans({
+const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
