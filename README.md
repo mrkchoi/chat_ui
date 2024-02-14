@@ -36,17 +36,19 @@ bun dev
 ### Additional Features (to be implemented, time permitting):
 In a fully featured chat UI, there would be many additional considerations/features to implement, including:
 
-- Message typing indicator
-- Intgration with websockets for realtime messaging
-- Online/Offline indicator status
+- Integration with backend datalayer/DB
 - Message caching (i.e. only pull last 100 message from chat, load more on scroll up/event)
+- Intgration with websockets for realtime messaging
+- Message typing indicator
+- Online/Offline indicator status
 - Unread message indicator/notification
 - Light/Dark mode support
 - Reacting (emoji) to individual chat messages
 - Support for group chat
 - Support for various media type messages (image, video, file attachments, etc)
 - Support for Voice/Video chat
+- Optimized mobile styling
 - Undo/edit existing message
-- Integration with backend datalayer/DB
+
 
 <video src="https://github.com/mrkchoi/chat_ui/assets/40152546/1946d427-f36e-4a23-b354-4608e83da1e2" width="100%">
