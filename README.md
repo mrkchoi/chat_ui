@@ -1,7 +1,10 @@
 # Chat App UI
 A chat UI built with next.js (react), shadcn, zustand, tailwind
 
-### Steps to Run:
+### Live Preview:
+https://chat-ui-ten-kappa.vercel.app/
+
+### Steps to Run Locally:
 1. clone this repo to your local machine.
 
 2. cd into the project directory and install all dependencies:
@@ -30,7 +33,7 @@ bun dev
 - Supports multiple channels/chats
 - Autoscroll to last message in chat
 
-### Additional Features (to be implemented):
+### Additional Features (to be implemented, time permitting):
 In a fully featured chat UI, there would be many additional considerations/features to implement, including:
 
 - Message typing indicator
