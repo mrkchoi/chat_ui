@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { PanelLeftCloseIcon, PanelLeftOpenIcon } from "lucide-react";
-import { useStore } from "@/app/page";
+import { useStore } from "@/app/App";
 
 function SidebarFooter() {
   const { panelOpen, setPanelOpen } = useStore();

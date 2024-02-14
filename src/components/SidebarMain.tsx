@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
-import { useStore, Chat } from "@/app/page";
+import { useStore, Chat } from "@/app/App";
 import SidebarItemFull from "./SidebarItemFull";
 import SidebarItemMini from "./SidebarItemMini";
 

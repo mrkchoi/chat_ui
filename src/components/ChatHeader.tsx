@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Camera, Info, Phone } from "lucide-react";
-import { useStore, Chat } from "@/app/page";
+import { useStore, Chat } from "@/app/App";
 
 function ChatHeader() {
   const { chatData, selectedChatId } = useStore();

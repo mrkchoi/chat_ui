@@ -9,7 +9,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
-import { useStore, Chat } from "@/app/page";
+import { useStore, Chat } from "@/app/App";
 
 function SidebarItemMini({ chat }: { chat: Chat }) {
   const { selectedChatId, setSelectedChatId } = useStore();

@@ -23,7 +23,7 @@ import data from "@emoji-mart/data";
 import Picker from "@emoji-mart/react";
 
 import { v4 as uuidv4 } from "uuid";
-import { useStore } from "@/app/page";
+import { useStore } from "@/app/App";
 
 function ChatFooter() {
   const { chatData, setChatData, selectedChatId, loggedInUser } = useStore();

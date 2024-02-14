@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { cn } from "@/lib/utils";
-import { useStore, Chat, Message } from "@/app/page";
+import { useStore, Chat, Message } from "@/app/App";
 
 function ChatMessages() {
   const { chatData, selectedChatId, loggedInUser, panelOpen } = useStore();

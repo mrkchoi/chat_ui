@@ -31,7 +31,7 @@ import { SquarePen, Check, ChevronsUpDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { v4 as uuidv4 } from "uuid";
 
-import { useStore } from "@/app/page";
+import { useStore } from "@/app/App";
 
 function ChatCreateDialog() {
   const {

@@ -11,7 +11,8 @@ import {
 } from "@/components/ui/tooltip";
 import { MoreHorizontal } from "lucide-react";
 
-import { useStore } from "@/app/page";
+import { useStore} from "@/app/App";
+
 import ChatCreateDialog from "./ChatCreateDialog";
 
 function SidebarHeader() {
